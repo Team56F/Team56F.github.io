@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">Team56F</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="home.html" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+
+                <li class="pure-menu-item menu-item-divided pure-menu-selected">
+                    <a href="overveiw.html" class="pure-menu-link">Overveiw</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="journal.html" class="pure-menu-link">Journal</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Overveiw</h1>
+            <h2>Team 56F's robot at a glance. </h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Mechanical Design </h2>
+            <p>
+              • 1:1 gear ratio for a ballance of torque and speed<br>
+              • Simple Chain leveled lift<br>
+              • Scorpion claw for fast manipulation of game elements.<br>
+              • Unique Pneumatic Mobile goal lift for fast manipulation of goals.<br>
+              • High gear ratio on the lift, No rubber bands needed.<br>
+              • Simple, effective autonmous, No complex sensors.<br>
+              • Easy maintenance and repair by design. No fussing with tight corners.<br>
+              • Tested, Reliable design. This robot has driven about 10-15 hours with no major failures.<br>
+              • Compatable. By design, this robot can work with just about any other.
+
+              <div class="pure-g">
+                  <div class="pure-u-1-3">
+                      <img class="pure-img-responsive" src="11Gear.jpg" alt="1:1 Gearing">
+                  </div>
+                  <div class="pure-u-1-3">
+                      <img class="pure-img-responsive" src="Scorpion.jpg" alt="Scorpion">
+                  </div>
+                  <div class="pure-u-1-3">
+                      <img class="pure-img-responsive" src="EOAC.jpg" alt="Chain Lift detail">
+                  </div>
+              </div>
+
+            </p>
+
+            <h2 class="content-subhead">Autonomous and Extras</h2>
+            <p>
+                • Retreives 1 mobie goal and drops it off in 5 point zone<br>
+                • Builds upon last year's robot and improves issues with it<br>
+                • Battery life is not an issue in autonmous performance<br>
+            </p>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/ui.js"></script>
+
+</body>
+</html>
